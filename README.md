@@ -79,7 +79,7 @@ controller.modelArray = @[
 
 [self.navigationController pushViewController:controller animated:YES];//显示
 
-----如果需要对图片进行额外操作如保存、分享，可自定义菜单功能---------
+----如果需要对图片进行额外操作如保存、分享，可自定义菜单功能--------
 UIButton *button = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, 22, 22)];
 button.titleStringMu = @"保存";
 [button addTarget:self action:@selector(Carousel) forControlEvents:UIControlEventTouchUpInside];
